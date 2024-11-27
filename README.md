@@ -1,4 +1,4 @@
-C# Eğitim Kampi çerçevesinde Db First yaklaşımı temel alarak içerisinde Guide, Customer, Location isimlerinde tablolar bulunan bir veri tabanı oluşturduk.
+  C# Eğitim Kampi çerçevesinde Db First yaklaşımı temel alarak içerisinde Guide, Customer, Location isimlerinde tablolar bulunan bir veri tabanı oluşturduk.
 Diagram kullanarak tablolar arasında bire çok ilişki kurduk. ADO.NET Entity Data Model sayesinde hazırlamış olduğumuz veritabanını Visual Studio'a entegre ettik. 
 Böylelikle SQL'deki tablolarım birer sınıfa dönüştü. Daha sonra Admin isminde bir tablo oluşturduk ve bunu da Modele yansıttık. 
 Entity Framework metotları kullanarak verilerin listelenmesi, silinmesi, eklenmesi, güncellenmesini sağladık.
