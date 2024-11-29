@@ -58,6 +58,11 @@
     <Compile Include="Abstract\IOrderDal.cs" />
     <Compile Include="Abstract\IProductDal.cs" />
     <Compile Include="Context\CampContext.cs" />
+    <Compile Include="EntityFramework\EfAdminDal.cs" />
+    <Compile Include="EntityFramework\EfCategoryDal.cs" />
+    <Compile Include="EntityFramework\EfCustomerDal.cs" />
+    <Compile Include="EntityFramework\EfOrderDal.cs" />
+    <Compile Include="EntityFramework\EfProductdal.cs" />
     <Compile Include="Migrations\202411251415216_mig2.cs" />
     <Compile Include="Migrations\202411251415216_mig2.Designer.cs">
       <DependentUpon>202411251415216_mig2.cs</DependentUpon>
@@ -76,9 +81,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="EntityFramework\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202411251415216_mig2.resx">
       <DependentUpon>202411251415216_mig2.cs</DependentUpon>
